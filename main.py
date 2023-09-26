@@ -2,7 +2,7 @@ onep = input()
 twop = input()
 oneb = str(bin(int(onep))[2:])
 twob = str(bin(int(twop))[2:])
-sum  = ""
+sum = ""
 i = -7
 b = 0
 if onep[0] =='-':
@@ -10,10 +10,12 @@ if onep[0] =='-':
 if twop[0] =='-':
     twob = twob[1:]
 
+
 def x8(a):
     while len(a) <= 7:
         a = '0' + a
     return a
+
 
 oneb = x8(oneb)
 twob = x8(twob)
